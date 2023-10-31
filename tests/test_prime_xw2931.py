@@ -1,7 +1,9 @@
-from prime_xw2931 import prime_xw2931
+from prime_xw2931.prime_xw2931 import is_prime
+
+
 import sys
 import os
-
+sys.path.append("/Users/rr/Documents/GitHub/prime_Xiaoya_Wang")
 
 def test_is_prime():
     assert is_prime(2) is True
